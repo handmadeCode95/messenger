@@ -1,0 +1,49 @@
+.nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f9f9fa;
+	padding: 20px 50px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__btn--selected {
+	color: var(--red);
+}
+
+.nav__link {
+	position: relative;
+}
+
+.nav__notification {
+	background-color: var(--blue);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+.nav__chat {
+	background-color: var(--blue);
+	width: 30px;
+	height: 30px;
+	left: 15px;
+	bottom: 15px;
+	border-radius: 50%;
+	color: white;
+	font-weight: 700;
+}
+
+.nav__ellipsis {
+	width: 5px;
+	height: 5px;
+	left: 30px;
+	bottom: 30px;
+}
