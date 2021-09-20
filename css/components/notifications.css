@@ -1,0 +1,18 @@
+.notification--badge {
+	background-color: var(--blue);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	color: white;
+	font-weight: 700;
+}
+
+.notification--point {
+	background-color: var(--blue);
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+}

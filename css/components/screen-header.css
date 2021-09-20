@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 55px var(--horizontal-space) 25px var(--horizontal-space);
+	margin-bottom: 20px;
 }
 
 .screen-header__title {
@@ -10,5 +11,13 @@
 }
 
 .screen-header__icons span {
+	position: relative;
 	margin-left: 25px;
+}
+
+.screen-header__notification--cog {
+	display: flex;
+	position: absolute;
+	bottom: 30px;
+	right: -5px;
 }

@@ -2,4 +2,6 @@
 	--red: #AE1817;
 	--blue: #5DC2E0;
 	--horizontal-space: 25px;
+	--main-border: 1px solid rgba(0, 0, 0, 0.2);
+	--gray: rgba(0, 0, 0, 0.5);
 }
