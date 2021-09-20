@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" href="css/styles.css">
 	<meta charset="UTF-8">
-	<title>러볼리톡</title>
+	<title>러볼리톡 - 찾기</title>
 	<!-- https://messenger-crzor.run.goorm.io/messenger/find.html -->
 </head>
 <body>
@@ -27,27 +27,27 @@
 		<div class="screen-header__icons">
 			<span><i class="fas fa-search fa-2x"></i></span>
 			<span>
-				<div class="screen-header__notification--cog notification--point"></div>
-				<i class="fas fa-cog fa-2x"></i>
+				<div class="notification--point"></div>
+				<a href="settings.html"><i class="fas fa-cog fa-2x"></i></a>
 			</span>
 		</div>
 	</header>
 	
 	<main class="main-screen">
-		<div class="find-icons">
-			<div class="find-icons__icon">
+		<div class="icon-row">
+			<div class="icon-row__icon">
 				<i class="fas fa-qrcode fa-2x"></i>
 				<span>QR코드</span>
 			</div>
-			<div class="find-icons__icon">
+			<div class="icon-row__icon">
 				<i class="fas fa-address-book fa-2x"></i>
 				<span>연락처로 추가</span>
 			</div>
-			<div class="find-icons__icon">
+			<div class="icon-row__icon">
 				<i class="fas fa-user-plus fa-2x"></i>
 				<span>ID로 추가</span>
 			</div>
-			<div class="find-icons__icon">
+			<div class="icon-row__icon">
 				<i class="fas fa-envelope fa-2x"></i>
 				<span>초대</span>
 			</div>
@@ -97,8 +97,8 @@
 				<a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
 			</li>
 			<li class="nav__btn">
-				<a class="nav__link" href="chat.html">
-					<span class="notification--badge nav__notification--chat">1</span>
+				<a class="nav__link" href="chats.html">
+					<span class="notification--badge">1</span>
 					<i class="fas fa-comment fa-2x"></i>
 				</a>
 			</li>
@@ -107,12 +107,16 @@
 			</li>
 			<li class="nav__btn">
 				<a class="nav__link" href="more.html">
-					<span class="notification--point nav__notification--more"></span>
+					<span class="notification--point"></span>
 					<i class="fas fa-ellipsis-h fa-2x"></i>
 				</a>
 			</li>
 		</ul>
 	</nav>
+	
+	<div id="no-mobile">
+		<span>화면 크기를 줄여주세요🙏</span>
+	</div>
 	
 	<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>

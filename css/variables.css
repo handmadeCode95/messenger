@@ -1,7 +1,19 @@
+@keyframes fadeIn {
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	} to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
 :root {
-	--red: #AE1817;
+	--red: #D93E28;
 	--blue: #5DC2E0;
+	--black: #2e343e;
 	--horizontal-space: 25px;
 	--main-border: 1px solid rgba(0, 0, 0, 0.2);
 	--gray: rgba(0, 0, 0, 0.5);
+	--fadeIn: fadeIn 0.5s ease-in-out;
 }

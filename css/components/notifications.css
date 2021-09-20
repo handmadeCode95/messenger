@@ -8,6 +8,7 @@
 	height: 30px;
 	color: white;
 	font-weight: 700;
+	position: absolute;
 }
 
 .notification--point {
@@ -15,4 +16,5 @@
 	border-radius: 50%;
 	width: 5px;
 	height: 5px;
+	position: absolute;
 }

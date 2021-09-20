@@ -9,20 +9,40 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body * {
 	font-family: "Noto Sans KR", sans-serif;
 }
 
 body {
-	color: #2e343e;
+	color: var(--black);
+}
+
+@keyframes slideInScreen {
+	from {
+		transform: translateX(-30vh);
+		opacity: 0;
+	} to {
+		transform: none;
+		opacity: 1;
+	}
 }
 
 .main-screen {
 	padding: 0px var(--horizontal-space);
+}
+
+.main-screen:not(.chat-screen) {
+	animation: slideInScreen 0.5s ease-out;
 }
