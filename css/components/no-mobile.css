@@ -13,7 +13,7 @@
 	top: 0;
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-aspect-ratio: 10/15) {
 	#no-mobile {
 		display: none;
 	}
