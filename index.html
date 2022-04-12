@@ -1,44 +1,69 @@
 <!DOCTYPE html>
 <html lang="kr">
-<head>
-	<link rel="stylesheet" href="css/styles.css">
-	<meta charset="UTF-8">
-	<title>러볼리톡</title>
-	<!-- https://messenger-crzor.run.goorm.io/messenger/index.html -->
-</head>
-<body>
-	<div class="status-bar">
-		<div class="status-bar__column">
-			<span>서비스 없음</span>
-			<i class="fas fa-wifi"></i>
-		</div>
-		<div class="status-bar__column">
-			<span>09:14</span>
-		</div>
-		<div class="status-bar__column">
-			<span>95%</span>
-			<i class="fas fa-battery-full fa-lg"></i>
-			<i class="fas fa-bolt"></i>
-		</div>
-	</div>
-		
-	<header class="welcome-header">
-		<h1 class="welcome-header__title">러볼리톡에 오신 것을 환영합니다!</h1>
-		<p class="welcome-header__text">사용중인 러볼리톡 계정이 있다면 이메일 또는 전화번호로 로그인 하세요.</p>
-	</header>
-		
-	<form action="friends.html" method="get" class="login-form">
-		<input name="username" type="text" class="login-form__input login-form__input-text" placeholder="계정(이메일 또는 전화번호)" required>
-		<input name="password" type="password" class="login-form__input login-form__input-text" placeholder="비밀번호" required>
-		<input type="submit" class="login-form__input login-form__input-btn" value="로그인">
-		<input type="submit" class="login-form__input login-form__input-btn" value="회원가입">
-		<a href="#" class="login-form__link">계정 또는 비밀번호 찾기</a>
-	</form>
-	
-	<div id="no-mobile">
-		<span>화면을 세로모드로 줄여주세요🙏</span>
-	</div>
-		
-	<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
-</body>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <title>러볼리톡</title>
+    <!-- https://messenger-crzor.run.goorm.io/messenger/index.html -->
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>서비스 없음</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>09:14</span>
+      </div>
+      <div class="status-bar__column">
+        <span>95%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">러볼리톡에 오신 것을 환영합니다!</h1>
+      <p class="welcome-header__text">
+        사용중인 러볼리톡 계정이 있다면 이메일 또는 전화번호로 로그인 하세요.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        name="username"
+        type="text"
+        class="login-form__input login-form__input-text"
+        placeholder="계정(이메일 또는 전화번호)"
+        required
+      />
+      <input
+        name="password"
+        type="password"
+        class="login-form__input login-form__input-text"
+        placeholder="비밀번호"
+        required
+      />
+      <input
+        type="submit"
+        class="login-form__input login-form__input-btn"
+        value="로그인"
+      />
+      <input
+        type="submit"
+        class="login-form__input login-form__input-btn"
+        value="회원가입"
+      />
+      <a href="#" class="login-form__link">계정 또는 비밀번호 찾기</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면을 세로모드로 줄여주세요🙏</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
